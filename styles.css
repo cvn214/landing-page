@@ -1,0 +1,175 @@
+body {
+margin: 0;
+display: flex;
+flex-direction: column;
+font-family: sans-serif;
+max-width: 100vw;
+flex: auto;
+
+}
+
+.header {
+    display: flex;
+ justify-content: space-between;
+ padding:8px 150px 8px 150px;
+}
+
+.header-logo {display: flex;
+font-size: 24px;
+color: #f9faf8;
+align-self: center;
+}
+
+.header-links {
+display: flex;
+gap: 20px;
+
+}
+
+.header, .section1 {
+    background-color: #1F2937;
+}
+
+ul {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+}
+
+.section1 {
+    display: flex;
+    padding: 25px 150px 0 150px;
+    justify-content: space-evenly;
+   
+}
+
+.section1text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero-main {font-size: 48px;
+font-weight: bolder;
+color: #F9FAF8;
+}
+
+.hero-second {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 20px 0 20px 0;
+}
+
+.large-pic {
+   padding: 100px;
+   max-width: 500px;
+    
+}
+
+button  { 
+    display: flex;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    max-width: 35%;
+    justify-content: center;
+}
+
+.section2 {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    margin-bottom: 70px;
+
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 300px 80px 300px;
+}
+
+.section4 {
+    display: flex;
+    background: #3882f6;
+    border-radius: 8px;
+    margin: 70px 250px 70px 250px;
+    padding: 30px 80px 30px 80px;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer { 
+color: #f9faf8;
+background-color: #1F2937;
+text-align: center;
+padding: 25px;
+}
+.info-header {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    justify-content: center;
+    padding: 30px;
+    flex-basis: 100%;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    
+}
+
+.food {
+display: flex;
+    border-radius: 10px;
+    border: 3px solid #3882f6;
+}
+
+.text { text-align: center;
+padding-top: 10px;}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+   
+}
+
+.author {display: flex;
+font-weight: bold;
+justify-content: end;
+padding-top: 20px;
+}
+
+.section4text {display: flex;
+flex-direction: column;
+}
+
+.section4button {display: flex;
+    border-color: white;
+    padding: 10px 30px;
+    align-items: center;
+    ;
+}
+
+.section4header {display: flex;
+font-weight: bold;
+font-size: 20px;
+margin-bottom: 5px;
+}
